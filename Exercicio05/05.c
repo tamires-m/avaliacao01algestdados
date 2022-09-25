@@ -16,9 +16,9 @@ int main()
     printf("Digite um número de telefone:");
     gets(tel);
     
-    printf("\n Nome = %zu\n",strlen(nome));
-    printf("\n Email = %zu\n",strlen(email));
-    printf("\n Telefone = %zu\n",strlen(tel));
+    printf("\n Nome : %zu dígitos\n",strlen(nome));
+    printf("\n Email : %zu dígitos\n",strlen(email));
+    printf("\n Telefone : %zu dígitos\n",strlen(tel));
     
     
     return 0;    
